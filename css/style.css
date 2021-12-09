@@ -86,13 +86,13 @@ box-sizing: border-box;
   margin: auto;
   background-color: #0005;
   display: inline-flex;
-  align-items: left;
+  align-items: right;
   justify-content: space-between;
 }
 
 .navbar ul{
   float: right;
-  margin-right: 1%;
+  margin-right: 3%;
 }
 .navbar ul li{
   list-style: none;
