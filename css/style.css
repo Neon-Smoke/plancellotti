@@ -86,7 +86,7 @@ box-sizing: border-box;
   margin: auto;
   background-color: #0005;
   display: inline-flex;
-  align-items: right;
+  align-items: center;
   justify-content: space-between;
 }
 
