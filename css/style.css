@@ -7,17 +7,16 @@ font-family: 'Cinzel', serif;
 box-sizing: border-box;
 }
 
-/* 'Base' CSS */
 
 @media (min-width: 320px) and (max-width: 999px) {
 
-  /* Mobile and tablet CSS */
+  // Mobile and tablet CSS //
 
 }
 
 @media (min-width: 1000px) {
 
-  /* Laptop/desktop CSS */
+  // Laptop/desktop CSS //
 
 }
 
