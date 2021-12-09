@@ -92,7 +92,7 @@ box-sizing: border-box;
 
 .navbar ul{
   float: right;
-  margin-right: 2%;
+  margin-right: 0.5%;
   margin-left: 1%;
 }
 .navbar ul li{
