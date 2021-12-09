@@ -27,7 +27,7 @@ box-sizing: border-box;
   font-size:  1.5em;
   font-weight: bold;
   background-size: cover;
-  background-image: linear-gradient(157deg, #28151E 825px, #28282A 150px);
+  background-image: linear-gradient(157deg, #28151E 52%, #28282A 35%);
   background-position: center;
   overflow: auto;
   overflow-y: scroll;
@@ -43,9 +43,9 @@ box-sizing: border-box;
 
 
 .row {
-  margin-top:  2.5%;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-top:  1.5%;
+  margin-left: 2%;
+  margin-right: 2%;
   }
 
 
@@ -86,7 +86,7 @@ box-sizing: border-box;
   margin: auto;
   background-color: #0005;
   display: inline-flex;
-  align-items: center;
+  align-items: left;
   justify-content: space-between;
 }
 
@@ -97,7 +97,7 @@ box-sizing: border-box;
 .navbar ul li{
   list-style: none;
   display: inline-block;
-  margin: 0 1em;
+  margin: 0 0.8em;
   position: relative;
 }
 
