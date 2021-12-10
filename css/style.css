@@ -96,13 +96,13 @@ box-sizing: border-box;
 .navbar ul li{
   list-style: none;
   display: inline-flex;
-  margin: 0 0.8em;
+  margin: 0 0.6em;
   position: relative;
 }
 
 .navbar ul li a{
   text-decoration: none;
-  font-size: 1em;            
+  font-size: 0.8em;            
   color: white;
   text-transform: uppercase;
 }
