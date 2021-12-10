@@ -65,13 +65,13 @@ box-sizing: border-box;
 
 .about {
   float: center;
-  padding-top: 2%;
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-bottom: 4%;
+  padding-top: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 1%;
   background-color: #0005;
-  margin-top: 3%;
-  margin-bottom: 2.5%;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
   margin-left: 2.5%;
   margin-right: 2.5%;
   text-align: center;
