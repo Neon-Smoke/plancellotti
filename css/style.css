@@ -56,11 +56,10 @@ box-sizing: border-box;
   padding-right: 5%;
   padding-bottom: 0.5%;
   display: inline-block;
-  float: left;
+  float: center;
   text-align: center;
   font-size: 1.6em;
   font-weight:  bold;
-  width: 50%;
 }
 
 .about {
