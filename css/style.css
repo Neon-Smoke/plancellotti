@@ -124,3 +124,8 @@ box-sizing: border-box;
 }
 
 /* navbar finish */
+
+.footer {
+  float: center;
+  padding-left: 40px;
+}
