@@ -7,7 +7,7 @@ Website repository for Peter Lancellotti
 
 *purple g in cover needs brightened*
 
-*switch cat tree photo*
+*switch cat tree photo* -USE VAMPIREE PHOTO-
 
 *check spelling on cover text*
 
