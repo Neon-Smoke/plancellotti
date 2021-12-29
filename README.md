@@ -7,7 +7,7 @@ Website repository for Peter Lancellotti
 
 *purple g in cover needs brightened*
 
-*switch cat tree photo* -USE VAMPIREE PHOTO-
+*switch cat tree photo* -USE VAMPIREE PHOTO- (still make cat tree photo look nice, though) (bump contrast in headshot, brighten main photo)
 
 *check spelling on cover text*
 
