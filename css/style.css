@@ -41,10 +41,9 @@ html {
       color: #FFFFFF;
       font-size: 5em;
       font-weight: bolder;
-      padding-left: 2%;
+      padding-left: 1%;
       padding-top: 0.25%;
       padding-bottom: 0.75%;
-      text-transform: lowercase;
     }
 
 .headshot {
@@ -160,7 +159,7 @@ footer{
       position: absolute;
       float: unset;
       top: 0;
-      left: 33%;
+      left: 23%;
       bottom: 2rem;
       font-size: 4em;
       padding-left: 0;
@@ -196,7 +195,7 @@ footer{
 
   .logo{
     font-size: 2.5em;
-    left: 30%;
+    left: 20%;
   }
 
   nav ul{
@@ -216,6 +215,10 @@ footer{
 
 
 @media only screen and (max-width: 336px){
+
+  .logo{
+    left: 12%;
+  }
 
   nav ul li{
   margin: 0em 0.5em;
