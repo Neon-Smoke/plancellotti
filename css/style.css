@@ -245,6 +245,23 @@ footer{
       margin-left: 1rem;
     }
 
+
+    .search input{
+        border-radius: 3rem;
+        padding: 2rem;
+    }
+
+    .search-bar{
+      width: calc(100% - 10rem);
+      font-size: 0.5em;
+    }
+
+    .search-btn{
+      width: 10rem;
+      margin-left: -5rem;
+      font-size: 0.5em;
+    }
+
 }
 
 @media only screen and (max-width: 550px){
@@ -267,6 +284,29 @@ footer{
   .about{
     font-size: 0.8em;
   }
+
+  .search input{
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem;
+    outline: none;
+    margin-bottom: 4rem;
+    }
+
+    .search-bar{
+      width: calc(100% - 2rem);
+      font-size: 0.6em;
+    }
+
+    .search-btn{
+      width: 5rem;
+      background-image: linear-gradient(163deg, #521736, #28282A);
+      color: white;
+      cursor: pointer;
+      margin-left: -5rem;
+      font-size: 0.6em;
+    }
+
 }
 
 
