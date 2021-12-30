@@ -50,15 +50,15 @@ html {
 	    float: center;
       border-radius: 30px;
       line-height: 2;
-      padding-top: 1%;
+      padding-top: 3rem;
       padding-left: 2%;
       padding-right: 2%;
-      padding-bottom: 0.5%;
+      padding-bottom: 3rem;
       background-color: #0009;
       margin-top:  0.5%;
       margin-bottom: 0.5%;
-      margin-left: 25%;
-      margin-right: 25%;
+      margin-left: 15%;
+      margin-right: 15%;
       text-align: center;
     }
 
@@ -68,14 +68,14 @@ html {
       border-radius: 30px;
       line-height: 2;
       padding-top: 1%;
-      padding-left: 10%;
-      padding-right: 10%;
+      padding-left: 5%;
+      padding-right: 5%;
       padding-bottom: 1%;
       background-color: #0009;
       margin-top:  0.5%;
       margin-bottom: 0.5%;
-      margin-left: 10%;
-      margin-right: 10%;
+      margin-left: 3%;
+      margin-right: 3%;
       text-align: center;
       font-size: 2.5em;
       font-weight:  bolder;
