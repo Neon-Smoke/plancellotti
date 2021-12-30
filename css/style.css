@@ -90,7 +90,6 @@ html {
 }
 
 .search input{
-    border: none;
     border-radius: 5rem;
     padding: 2rem;
     outline: none;
@@ -100,10 +99,12 @@ html {
 .search-bar{
   width: calc(100% - 10rem);
   font-size: 1em;
+  border: 3px solid black;
 }
 
 .search-btn{
   width: 20rem;
+  border: 2px solid black;
   background-image: linear-gradient(163deg, #521736, #28282A);
   color: white;
   cursor: pointer;
@@ -211,6 +212,11 @@ footer{
       margin-left: 8rem;
     }
 
+    .smallwide{
+      width: 75%;
+      height: auto;
+    }
+
 
     .logo {
       position: absolute;
@@ -276,10 +282,6 @@ footer{
     margin-left: 4rem;
   }
 
-  img {
-    width: 70%;
-    height: auto;
-  }
 
   nav ul{
     margin-left: 0%;
