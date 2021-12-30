@@ -26,12 +26,12 @@ html {
 	font-weight: bolder;
 	color: white;
 	background-position: center;
-	grid-template-columns: 1fr;
+	grid-template-columns: 1fr 1fr;
 	grid-template-rows: .2fr 2fr 0.5fr;
 	grid-template-areas:
-		"nav nav nav"
-		"main main main"
-		"footer footer footer";
+		"nav nav"
+		"main main"
+		"footer footer";
 }
 
 
@@ -80,6 +80,45 @@ html {
       font-size: 2.5em;
       font-weight:  bolder;
     }
+
+.contact {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 2fr;
+      grid-template-areas:
+      "contact maillist";
+      text-align: center;
+      font-size: 1em;
+      font-weight:  bolder;
+
+}
+
+.search input{
+    border: none;
+    border-radius: 5rem;
+    padding: 2rem;
+    outline: none;
+    margin-bottom: 6rem;
+}
+
+.search-bar{
+  width: calc(100% - 10rem);
+  font-size: 1em;
+}
+
+.search-btn{
+  width: 20rem;
+  background-image: linear-gradient(163deg, #521736, #28282A);
+  color: white;
+  cursor: pointer;
+  margin-left: -20rem;
+  font-size: 1em;
+}
+
+.search-btn:hover{
+    background-image: linear-gradient(163deg, #28282A, #521736);
+}
+
 
 nav{
   position: relative;
@@ -133,6 +172,23 @@ main{
 
 }
 
+contact{
+      float: center;
+      grid-area: contact;
+      width: 100%;
+      text-align: center;
+      font-size: 1.2em;
+      font-weight:  bolder;
+}
+
+maillist{
+      float: center;
+      grid-area: maillist;
+      width: 100%;
+      text-align: center;
+      font-size: 1.2em;
+      font-weight:  bolder;
+}
 
 
 footer{
