@@ -197,7 +197,7 @@ footer{
 	align-content: center;
 }
 
-@media only screen and (max-width: 811px) {
+@media only screen and (max-width: 1080px) {
 
     .container {
       grid-template-columns: 1fr;
@@ -229,6 +229,15 @@ footer{
       padding-top: 0;
       padding-bottom: 0;
     }
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
 
     nav {
       background-color: #28282A;
