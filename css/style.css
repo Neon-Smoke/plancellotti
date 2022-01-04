@@ -174,7 +174,7 @@ nav{
 
 .bar{
   display: block;
-  position: relative;
+  position: fixed;
   left: 45%;
   top: 15%;
   width: 40px;
