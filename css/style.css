@@ -4,6 +4,7 @@
 	margin: 0;
 	padding: 0;
 	font-family: 'Cormorant Garamond', serif;
+  box-sizing: border-box;
 }
 
 
@@ -19,19 +20,18 @@ html {
 	display: grid;
 	height: 100vh;
 	width: 100%;
-	box-sizing: border-box;
 	background-image: linear-gradient(163deg, #521736 52%, #28282A 35%);
   overflow: auto;
   overflow-y: scroll;
 	font-weight: bolder;
 	color: white;
 	background-position: center;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr;
 	grid-template-rows: .2fr 2fr 0.5fr;
 	grid-template-areas:
-		"nav nav"
-		"main main"
-		"footer footer";
+		"nav"
+		"main"
+		"footer";
 }
 
 
@@ -45,6 +45,10 @@ html {
       padding-top: 0.25%;
       padding-bottom: 0.75%;
     }
+
+.mobi-logo{
+  display: none;
+}
 
 .headshot {
       width: 80%;
@@ -86,6 +90,7 @@ html {
       text-align: center;
       font-size: 1em;
       font-weight:  bolder;
+      margin-top: 5px;
 
 }
 
@@ -162,6 +167,24 @@ nav{
     }
 
 
+.hamburger{
+  display: none;
+  cursor: pointer;
+}
+
+.bar{
+  display: block;
+  position: relative;
+  left: 45%;
+  top: 15%;
+  width: 40px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+  z-index: 99;
+}
 
 main{
 
@@ -217,49 +240,53 @@ footer{
       height: auto;
     }
 
-
-    .logo {
+    .mobi-logo {
+      display: inline-block;
       position: absolute;
+      background-color: #28282A;
+      text-align: left;
+      width: 100%;
+      background-position: cover;
       float: unset;
       top: 0;
-      left: 23%;
-      bottom: 2rem;
+      left: 0%;
       font-size: 4em;
-      padding-left: 0;
+      padding-left: 10px;
       padding-top: 0;
-      padding-bottom: 0;
+      padding-bottom: 10px;
+      z-index: 98;
     }
-
-a:link {
-  color: white;
-}
-
-a:visited {
-  color: white;
-}
 
 
     nav {
+      display: none;
       background-color: #28282A;
       width: 100%;
       margin-bottom: 2%;
     }
 
-    nav ul {
-    margin-right: none;
-    margin-left: 10%;
-    margin-top: 8rem;
-    text-align: center;
-    }
 
-    nav ul li {
-      margin: 0em 0.5em;
-    }
+.hamburger{
+  display: block;
+  z-index: 99;
+}
 
-    nav ul li a {
-      margin-bottom: 2rem;
-      margin-left: 1rem;
-    }
+.hamburger.active .bar:nth-child(2){
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1){
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(1){
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+.nav-menu{
+  display: block;
+  position: fixed;
+}
 
 
     .search input{
@@ -282,9 +309,20 @@ a:visited {
 
 @media only screen and (max-width: 550px){
 
+    .contact {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 0.5fr 1fr;
+      grid-template-areas:
+      "maillist"
+      "contact";
+      margin-top: 0;
+}
+
   .logo{
     font-size: 2.5em;
     left: 20%;
+    background-color: #28282A;
   }
 
   .headshot{
@@ -301,6 +339,14 @@ a:visited {
     margin: 0em 1em;
 
   }
+
+  nav ul li a::after{
+    display: none;
+  }
+
+nav ul li:hover::after{
+      width: 0%;
+    }
 
   .about{
     font-size: 0.8em;
@@ -328,10 +374,29 @@ a:visited {
       font-size: 0.6em;
     }
 
+    .mobi-logo{
+      font-size: 2.5rem;
+      padding-top: 2px;
+      padding-bottom: 3px;
+    }
+
+    .bar { position: relative;
+      left: 40%;
+      top: 2.5%;
+    }
 }
 
 
 @media only screen and (max-width: 336px){
+
+  .contact {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 0.25fr 1fr;
+      grid-template-areas:
+      "maillist"
+      "contact";
+}
 
   .logo{
     left: 12%;
