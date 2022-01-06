@@ -129,7 +129,6 @@ html {
   display: inline-flex;
   align-items: center;
   justify-content: space-between;
-  z-index: 98;
     }
 
     
@@ -269,9 +268,7 @@ footer{
 .nav-menu{
   display: block;
   position: fixed;
-  left: -100%;
-  top: 70px;
-  gap: 0;
+  top: -100%;
   width: 100%;
   background-color: #0009;
   flex-direction: column;
@@ -280,7 +277,7 @@ footer{
 }
 
 .nav-menu.active{
-  left: 0;
+  top: 60px;
 }
 
 
@@ -344,6 +341,10 @@ footer{
   .navbar ul li:hover::after{
     width: 0%;
   }
+
+  .nav-menu.active{
+  top: 0.0001px;
+}
 
   .about{
     font-size: 2.5em;
