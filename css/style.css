@@ -12,11 +12,6 @@ html {
   font-size: 62.5%;
 }
 
-
-.contact {
-
-}
-
 .container {
   caret-color: transparent;
 	display: grid;
@@ -29,13 +24,12 @@ html {
 	color: white;
 	background-position: center;
 	grid-template-columns: 1fr;
-	grid-template-rows: .2fr 2fr .5fr;
+	grid-template-rows: .1fr 1fr .5fr;
 	grid-template-areas:
 		"nav"
 		"main"
 		"footer";
 }
-
 
 .logo{
       float: left;
@@ -50,13 +44,14 @@ html {
 
 
 .headshot {
+      float: center;
       width: 80%;
       height: auto;
       border-radius: 30px;
-      line-height: 2;
-      margin-top: 1rem;
-      padding-top: 1rem;
-      margin-left: 20rem;
+      line-height: 1;
+      padding-top: 1%;
+      margin-top: 0.5%;
+      margin-left: 10%;
       background-color: #0009;
       text-align: center;
     }
@@ -122,7 +117,7 @@ html {
 
 
 .navbar{
-  position: relative;
+  width: 100%;
 	background-color: #0009;
 	grid-area: nav;
   line-height: 0.5fr;
@@ -228,7 +223,7 @@ footer{
 
     .container{
       grid-template-columns: 1fr;
-      grid-template-rows: .1fr 1fr 0.25fr;
+      grid-template-rows: .1fr 1fr 0.5fr;
       grid-template-areas:
         "nav"
         "main"
@@ -240,6 +235,7 @@ footer{
     }
 
     .headshot{
+      margin-top: 10%;
       margin-left: 8rem;
     }
 
@@ -265,6 +261,8 @@ footer{
   transform: translateY(-8px) rotate(-45deg);
 }
 
+
+
 .nav-menu{
   display: block;
   position: fixed;
@@ -276,8 +274,18 @@ footer{
   transition: 0.3s;
 }
 
+.navbar{
+    position: fixed;
+    height: auto;
+}
+
 .nav-menu.active{
   top: 60px;
+}
+
+.maincontain.active{
+  margin-top: 90px;
+  transition: 0.3s;
 }
 
 
@@ -304,7 +312,7 @@ footer{
       grid-template-areas:
       "maillist"
       "contact";
-      margin-top: 2.5%;
+      margin-top: 10%;
   }
 
 }
@@ -341,6 +349,11 @@ footer{
   .navbar ul li:hover::after{
     width: 0%;
   }
+
+  .navbar.active {
+  margin-bottom: 100px;
+  transition: 0.3s;
+}
 
   .nav-menu.active{
   top: 0.0001px;
