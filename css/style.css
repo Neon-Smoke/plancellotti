@@ -12,11 +12,13 @@ html {
   font-size: 62.5%;
 }
 
+
 .contact {
 
 }
 
 .container {
+  caret-color: transparent;
 	display: grid;
 	height: 100vh;
 	width: 100%;
@@ -46,9 +48,6 @@ html {
       padding-bottom: 0.75%;
     }
 
-.mobi-logo{
-  display: none;
-}
 
 .headshot {
       width: 80%;
@@ -104,6 +103,7 @@ html {
 .search-bar{
   width: calc(100% - 10rem);
   font-size: 1em;
+  caret-color: black;
   border: 3px solid black;
 }
 
@@ -122,36 +122,37 @@ html {
 }
 
 
-nav{
+.navbar{
   position: relative;
 	background-color: #0009;
 	grid-area: nav;
-    line-height: 0.5fr;
-    display: inline-flex;
-    align-items: center;
-    justify-content: space-between;
+  line-height: 0.5fr;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 98;
     }
 
     
-    nav ul{
+    .navbar ul{
       float: right;
       margin-right: 0.5%;
     }
-    nav ul li{
+    .navbar ul li{
       list-style: none;
       display: inline-flex;
       margin: 0em 1em;
       position: relative;
     }
 
-    nav ul li a{
+    .navbar ul li a{
       text-decoration: none;
       font-size: 2em;            
       color: white;
       text-transform: uppercase;
     }
 
-    nav ul li::after{
+    .navbar ul li::after{
       content: '';
       height: 50%;
       width: 0%;
@@ -162,10 +163,16 @@ nav{
       transition: 0.5s;
     }
 
-    nav ul li:hover::after{
+    .navbar ul li:hover::after{
       width: 100%;
     }
 
+.nav-menu{
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
 
 .hamburger{
   display: none;
@@ -174,16 +181,13 @@ nav{
 
 .bar{
   display: block;
-  position: absolute;
-  left: 45%;
-  top: 15%;
   width: 40px;
   height: 3px;
   margin: 5px auto;
+  margin-right: 10px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background-color: white;
-  z-index: 99;
 }
 
 main{
@@ -222,13 +226,19 @@ footer{
 
 @media only screen and (max-width: 1080px) {
 
-    .container {
+
+
+    .container{
       grid-template-columns: 1fr;
       grid-template-rows: .1fr 1fr 0.25fr;
       grid-template-areas:
         "nav"
         "main"
         "footer";
+    }
+
+    .about{
+      font-size: 2.8rem;
     }
 
     .headshot{
@@ -240,35 +250,9 @@ footer{
       height: auto;
     }
 
-    .mobi-logo {
-      display: inline-block;
-      position: absolute;
-      background-color: #28282A;
-      text-align: left;
-      width: 100%;
-      background-position: cover;
-      float: unset;
-      top: 0;
-      left: 0%;
-      font-size: 4em;
-      padding-left: 10px;
-      padding-top: 0;
-      padding-bottom: 10px;
-      z-index: 98;
-    }
-
-
-    nav {
-      display: none;
-      background-color: #28282A;
-      width: 100%;
-      margin-bottom: 2%;
-    }
-
 
 .hamburger{
   display: block;
-  z-index: 99;
 }
 
 .hamburger.active .bar:nth-child(2){
@@ -286,6 +270,18 @@ footer{
 .nav-menu{
   display: block;
   position: fixed;
+  left: -100%;
+  top: 70px;
+  gap: 0;
+  width: 100%;
+  flex-direction: column;
+  text-align: center;
+  transition: 0.3s;
+  margin: 16px 0;
+}
+
+.nav-menu.active{
+  left: 0;
 }
 
 
@@ -309,47 +305,49 @@ footer{
 
 @media only screen and (max-width: 550px){
 
-    .contact {
+  .contact {
       display: grid;
       grid-template-columns: 1fr;
-      grid-template-rows: 0.5fr 1fr;
+      grid-template-rows: 0.5fr 1fr 1fr;
       grid-template-areas:
+      "nav"
       "maillist"
       "contact";
       margin-top: 0;
-}
+  }
 
   .logo{
-    font-size: 2.5em;
-    left: 20%;
-    background-color: #28282A;
+      font-size: 2.5em;
+      left: 20%;
   }
 
   .headshot{
-    margin-left: 4rem;
+      margin-left: 4rem;
   }
 
+  .about{
+      font-size: 8rem;
+  }
 
-  nav ul{
+  .navbar ul{
     margin-left: 0%;
     margin-top: 4rem;
   }
 
-  nav ul li{
+  .navbar ul li{
     margin: 0em 1em;
-
   }
 
-  nav ul li a::after{
+  .navbar ul li a::after{
     display: none;
   }
 
-nav ul li:hover::after{
-      width: 0%;
-    }
+  .navbar ul li:hover::after{
+    width: 0%;
+  }
 
   .about{
-    font-size: 0.8em;
+    font-size: 2.5em;
   }
 
   .search input{
@@ -358,56 +356,25 @@ nav ul li:hover::after{
     padding: 1rem;
     outline: none;
     margin-bottom: 4rem;
-    }
+  }
 
-    .search-bar{
+  .search-bar{
       width: calc(100% - 2rem);
       font-size: 0.6em;
-    }
+  }
 
-    .search-btn{
+  .search-btn{
       width: 5rem;
       background-image: linear-gradient(163deg, #521736, #28282A);
       color: white;
       cursor: pointer;
       margin-left: -5rem;
       font-size: 0.6em;
-    }
+  }
 
-    .mobi-logo{
-      font-size: 2.5rem;
-      padding-top: 2px;
-      padding-bottom: 3px;
-    }
-
-    .bar { position: relative;
+  .bar { 
+      position: absolute;
       left: 40%;
       top: 2.5%;
-    }
-}
-
-
-@media only screen and (max-width: 336px){
-
-  .contact {
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-template-rows: 0.25fr 1fr;
-      grid-template-areas:
-      "maillist"
-      "contact";
-}
-
-  .logo{
-    left: 12%;
-  }
-
-  nav ul li{
-  margin: 0em 0.5em;
-
-  }
-
-  .about{
-    font-size: 1.0em;
   }
 }
