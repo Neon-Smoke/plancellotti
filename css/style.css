@@ -372,9 +372,5 @@ footer{
       font-size: 0.6em;
   }
 
-  .bar { 
-      position: absolute;
-      left: 40%;
-      top: 2.5%;
-  }
+
 }
