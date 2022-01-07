@@ -7,7 +7,6 @@
   box-sizing: border-box;
 }
 
-
 html {
   font-size: 62.5%;
 }
@@ -32,66 +31,63 @@ html {
 }
 
 .logo{
-      float: left;
-      cursor: cell;
-      color: #FFFFFF;
-      font-size: 5em;
-      font-weight: bolder;
-      padding-left: 1%;
-      padding-top: 0.25%;
-      padding-bottom: 0.75%;
-    }
-
+  float: left;
+  cursor: cell;
+  color: #FFFFFF;
+  font-size: 5em;
+  font-weight: bolder;
+  padding-left: 1%;
+  padding-top: 0.25%;
+  padding-bottom: 0.75%;
+}
 
 .headshot {
-      float: center;
-      width: 80%;
-      height: auto;
-      border-radius: 30px;
-      line-height: 1;
-      padding-top: 1%;
-      margin-top: 0.5%;
-      margin-left: 10%;
-      background-color: #0009;
-      text-align: center;
-    }
-
+  float: center;
+  width: 80%;
+  height: auto;
+  border-radius: 30px;
+  line-height: 1;
+  padding-top: 1%;
+  margin-top: 0.5%;
+  margin-left: 10%;
+  background-color: #0009;
+  text-align: center;
+}
 
 .about {
-      float: center;
-      border-radius: 30px;
-      line-height: 2;
-      padding-top: 1%;
-      padding-left: 5%;
-      padding-right: 5%;
-      padding-bottom: 1%;
-      background-color: #0009;
-      margin-top:  0.5%;
-      margin-bottom: 0.5%;
-      margin-left: 3%;
-      margin-right: 3%;
-      text-align: center;
-      font-size: 2.5em;
-      font-weight:  bolder;
-    }
+  float: center;
+  border-radius: 30px;
+  line-height: 2;
+  padding-top: 1%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 1%;
+  background-color: #0009;
+  margin-top:  0.5%;
+  margin-bottom: 0.5%;
+  margin-left: 3%;
+  margin-right: 3%;
+  text-align: center;
+  font-size: 2.5em;
+  font-weight:  bolder;
+}
 
 .contact {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: 2fr;
-      grid-template-areas:
-      "contact maillist";
-      text-align: center;
-      font-size: 1em;
-      font-weight:  bolder;
-
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2fr;
+  grid-template-areas:
+  "contact maillist";
+  text-align: center;
+  font-size: 1em;
+  font-weight:  bolder;
 }
 
 .search input{
-    border-radius: 5rem;
-    padding: 2rem;
-    outline: none;
-    margin-bottom: 6rem;
+  border-radius: 5rem;
+  padding: 2rem;
+  outline: none;
+  margin-bottom: 6rem;
 }
 
 .search-bar{
@@ -112,9 +108,8 @@ html {
 }
 
 .search-btn:hover{
-    background-image: linear-gradient(163deg, #28282A, #521736);
+  background-image: linear-gradient(163deg, #28282A, #521736);
 }
-
 
 .navbar{
   width: 100%;
@@ -124,41 +119,41 @@ html {
   display: inline-flex;
   align-items: center;
   justify-content: space-between;
-    }
+}
+  
+.navbar ul{
+  float: right;
+  margin-right: 0.5%;
+}
 
-    
-    .navbar ul{
-      float: right;
-      margin-right: 0.5%;
-    }
-    .navbar ul li{
-      list-style: none;
-      display: inline-flex;
-      margin: 0em 1em;
-      position: relative;
-    }
+.navbar ul li{
+  list-style: none;
+  display: inline-flex;
+  margin: 0em 1em;
+  position: relative;
+}
 
-    .navbar ul li a{
-      text-decoration: none;
-      font-size: 2em;            
-      color: white;
-      text-transform: uppercase;
-    }
+.navbar ul li a{
+  text-decoration: none;
+  font-size: 2em;            
+  color: white;
+  text-transform: uppercase;
+}
 
-    .navbar ul li::after{
-      content: '';
-      height: 50%;
-      width: 0%;
-      background: #521736;
-      position: absolute;
-      left: 0%;
-      bottom: -115%;
-      transition: 0.5s;
-    }
+.navbar ul li::after{
+  content: '';
+  height: 50%;
+  width: 0%;
+  background: #521736;
+  position: absolute;
+  left: 0%;
+  bottom: -115%;
+  transition: 0.5s;
+}
 
-    .navbar ul li:hover::after{
-      width: 100%;
-    }
+.navbar ul li:hover::after{
+  width: 100%;
+}
 
 .nav-menu{
   display: inline-flex;
@@ -184,27 +179,25 @@ html {
 }
 
 main{
-
 	grid-area: main;
-
 }
 
 contact{
-      float: center;
-      grid-area: contact;
-      width: 100%;
-      text-align: center;
-      font-size: 1.2em;
-      font-weight:  bolder;
+  float: center;
+  grid-area: contact;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight:  bolder;
 }
 
 maillist{
-      float: center;
-      grid-area: maillist;
-      width: 100%;
-      text-align: center;
-      font-size: 1.2em;
-      font-weight:  bolder;
+  float: center;
+  grid-area: maillist;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight:  bolder;
 }
 
 
@@ -219,100 +212,95 @@ footer{
 
 @media only screen and (max-width: 1080px) {
 
+  .container{
+    grid-template-columns: 1fr;
+    grid-template-rows: .1fr 1fr 0.5fr;
+    grid-template-areas:
+    "nav"
+    "main"
+    "footer";
+  }
 
+  .about{
+    font-size: 2.8rem;
+  }
 
-    .container{
-      grid-template-columns: 1fr;
-      grid-template-rows: .1fr 1fr 0.5fr;
-      grid-template-areas:
-        "nav"
-        "main"
-        "footer";
-    }
+  .headshot{
+    margin-top: 10%;
+    margin-left: 8rem;
+  }
 
-    .about{
-      font-size: 2.8rem;
-    }
+  .smallwide{
+    width: 75%;
+    height: auto;
+  }
 
-    .headshot{
-      margin-top: 10%;
-      margin-left: 8rem;
-    }
+  .hamburger{
+    display: block;
+  }
 
-    .smallwide{
-      width: 75%;
-      height: auto;
-    }
+  .hamburger.active .bar:nth-child(2){
+    opacity: 0;
+  }
 
+  .hamburger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+  }
 
-.hamburger{
-  display: block;
-}
+  .hamburger.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+  }
 
-.hamburger.active .bar:nth-child(2){
-  opacity: 0;
-}
+  .nav-menu{
+    display: block;
+    position: fixed;
+    top: -100%;
+    width: 100%;
+    background-color: #0009;
+    flex-direction: column;
+    text-align: center;
+    transition: 0.3s;
+  }
 
-.hamburger.active .bar:nth-child(1){
-  transform: translateY(8px) rotate(45deg);
-}
-
-.hamburger.active .bar:nth-child(3){
-  transform: translateY(-8px) rotate(-45deg);
-}
-
-
-
-.nav-menu{
-  display: block;
-  position: fixed;
-  top: -100%;
-  width: 100%;
-  background-color: #0009;
-  flex-direction: column;
-  text-align: center;
-  transition: 0.3s;
-}
-
-.navbar{
+  .navbar{
     position: fixed;
     height: auto;
-}
+  }
 
-.nav-menu.active{
-  top: 60px;
-}
+  .nav-menu.active{
+    top: 60px;
+  }
 
-.maincontain.active{
-  margin-top: 90px;
-  transition: 0.3s;
-}
+  .maincontain.active{
+    margin-top: 90px;
+    transition: 0.3s;
+  }
 
 
-    .search input{
-        border-radius: 3rem;
-        padding: 2rem;
-    }
+  .search input{
+    border-radius: 3rem;
+    padding: 2rem;
+  }
 
-    .search-bar{
-      width: calc(100% - 10rem);
-      font-size: 0.5em;
-    }
+  .search-bar{
+    width: calc(100% - 10rem);
+    font-size: 0.5em;
+  }
 
-    .search-btn{
-      width: 10rem;
-      margin-left: -5rem;
-      font-size: 0.5em;
-    }
+  .search-btn{
+    width: 10rem;
+    margin-left: -5rem;
+    font-size: 0.5em;
+  }
 
-.contact {
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-template-rows: 0.5fr 1fr 1fr;
-      grid-template-areas:
-      "maillist"
-      "contact";
-      margin-top: 10%;
+  .contact {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 1fr 1fr;
+    grid-template-areas:
+    "maillist"
+    "contact";
+    margin-top: 10%;
   }
 
 }
@@ -321,16 +309,16 @@ footer{
 
 
   .logo{
-      font-size: 2.5em;
-      left: 20%;
+    font-size: 2.5em;
+    left: 20%;
   }
 
   .headshot{
-      margin-left: 4rem;
+    margin-left: 4rem;
   }
 
   .about{
-      font-size: 8rem;
+    font-size: 8rem;
   }
 
   .navbar ul{
@@ -351,13 +339,13 @@ footer{
   }
 
   .navbar.active {
-  margin-bottom: 100px;
-  transition: 0.3s;
-}
+    margin-bottom: 100px;
+    transition: 0.3s;
+  }
 
   .nav-menu.active{
-  top: 0.0001px;
-}
+    top: 0.0001px;
+  }
 
   .about{
     font-size: 2.5em;
@@ -372,18 +360,16 @@ footer{
   }
 
   .search-bar{
-      width: calc(100% - 2rem);
-      font-size: 0.6em;
+    width: calc(100% - 2rem);
+    font-size: 0.6em;
   }
 
   .search-btn{
-      width: 5rem;
-      background-image: linear-gradient(163deg, #521736, #28282A);
-      color: white;
-      cursor: pointer;
-      margin-left: -5rem;
-      font-size: 0.6em;
+    width: 5rem;
+    background-image: linear-gradient(163deg, #521736, #28282A);
+    color: white;
+    cursor: pointer;
+    margin-left: -5rem;
+    font-size: 0.6em;
   }
-
-
 }
