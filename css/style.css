@@ -318,7 +318,8 @@ footer{
   }
 
   .headshot{
-    margin-left: 4rem;
+    margin-left: 3.5rem;
+    margin-top: 4rem;
   }
 
   .about{
@@ -327,7 +328,7 @@ footer{
 
   .navbar ul{
     margin-left: 0%;
-    margin-top: 3.35rem;
+    margin-top: 3.33rem;
   }
 
   .navbar ul li{
