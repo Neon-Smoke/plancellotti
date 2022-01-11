@@ -199,7 +199,6 @@ maillist{
   font-weight:  bolder;
 }
 
-
 footer{
 
 	grid-area: footer;
@@ -298,13 +297,13 @@ footer{
 
   .contact {
     display: grid;
+    margin-top: 0%;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.2fr 0.5fr 0.1fr;
+    grid-template-rows: 0.1fr 0.2fr 0.1fr;
     grid-template-areas:
-    "maillist"
     "contact"
+    "maillist"
     "footer";
-    margin-top: 10%;
   }
 
 }
