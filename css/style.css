@@ -74,11 +74,10 @@ html {
 .contact {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 2fr;
+  grid-template-rows: 1fr;
   grid-template-areas:
   "contact maillist";
   text-align: center;
-  font-size: 1em;
   font-weight:  bolder;
 }
 
@@ -182,7 +181,6 @@ main{
 }
 
 contact{
-  float: center;
   grid-area: contact;
   width: 100%;
   text-align: center;
@@ -191,7 +189,6 @@ contact{
 }
 
 maillist{
-  float: center;
   grid-area: maillist;
   width: 100%;
   text-align: center;
@@ -297,9 +294,9 @@ footer{
 
   .contact {
     display: grid;
-    margin-top: 0%;
+    margin-top: 1.5%;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.1fr 0.2fr 0.1fr;
+    grid-template-rows: 0.1fr 0.1fr 0.1fr;
     grid-template-areas:
     "contact"
     "maillist"
