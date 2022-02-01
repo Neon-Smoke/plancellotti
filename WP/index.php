@@ -1,4 +1,6 @@
-ADD PHP
+<?php
+get_header()
+ ?>
 	
 		<main>
 			<div class="maincontain">
@@ -12,3 +14,7 @@ ADD PHP
 				</div>
 			</div>
 		</main>
+
+<?php 
+get_footer()
+ ?>
