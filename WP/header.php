@@ -4,7 +4,9 @@
 	<meta charset="utf-8">
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device=width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/style.css">
+
+<?php wp_head();?>	
+
 		<style>
 			img {
   			border: 0.2em solid black;
@@ -21,7 +23,7 @@
 			     	<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
 			     	<li class="nav-item"><a href="about.html" class="nav-link">The Author</a></li>
 			     	<li class="nav-item"><a href="books.html" class="nav-link">Books</a></li>
-			     	<li class="nav-item"><a href="blogs.html" class="nav-link">Blogs</a></li>
+			     	<li class="nav-item"><a href="/blogs.php" class="nav-link">Blogs</a></li>
 			     	<li class="nav-item"><a href="stories.html" class="nav-link">Stories</a></li>
 			     	<li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li> 
 			    </ul>    
