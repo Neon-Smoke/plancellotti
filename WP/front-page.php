@@ -1,11 +1,9 @@
-<?php get_header(); ?>
+<?php get_header();
+?>
 
 <main>
     <style>
-        body {
-            width: 100%;
-            overflow: hidden;
-        }
+
     </style>
             <div class="maincontain">
                 <div class="headshot">
@@ -18,7 +16,8 @@
                 </div>
             </div> 
 </main>
-</div>
 
-<?php get_footer(); ?>
+<?php
+get_footer();
+?>
 

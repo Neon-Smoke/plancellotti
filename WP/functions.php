@@ -11,15 +11,15 @@ function load_styles()
 
 }
 
-add_action('wp_enqueue_scripts', 'load_styles');
-
 // load scripts
 
 function addjs()
 {
 
-	wp_register_script('main', get_template_directory_uri() . '/scripts/main.js', array() , 1, 1, 1);
+	wp_register_script('main', get_template_directory_uri() . '<?php bloginfo('template_directory');?>/scripts/custom.js', array() , '', true);
 	wp_enqueue_script('main');
 
 
 }
+
+add_action('wp_enqueue_scripts', 'load_styles');

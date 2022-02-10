@@ -12,6 +12,7 @@
   			border: 0.2em solid black;
 			}
 		</style>
+		
   <title>Peter Lancellotti - Author</title> 
 
 </head>

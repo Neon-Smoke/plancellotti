@@ -21,15 +21,15 @@ get_header();
 			}
 	</style>
 
-			<div class="maincontain">
-				<div class="headshot">
-				   	<img class="smallwide" src="<?php bloginfo('template_directory');?>/images/Lancellotti(Favorite).jpg" width="35%" height="auto">
-				</div>
+	<div class="maincontain">
+		<div class="headshot">
+			<img class="smallwide" src="<?php bloginfo('template_directory');?>/images/Lancellotti(Favorite).jpg" width="35%" height="auto">
+		</div>
 
 
-				<div class="about">
-					<p style="text-align: left; margin-top: 2.5%; padding-right: 2.5px; padding-bottom: 5%;">
-						<img src="<?php bloginfo('template_directory');?>/images/Vampiree.jpg" style="float: right;width: 40%;height: auto; margin-left: 1%; margin-top: 1.5%;">
+		<div class="about">
+			<p style="text-align: left; margin-top: 2.5%; padding-right: 2.5px; padding-bottom: 5%;">
+				<img src="<?php bloginfo('template_directory');?>/images/Vampiree.jpg" style="float: right;width: 40%;height: auto; margin-left: 1%; margin-top: 1.5%;">
 
 							Growing up on the Massachusetts/Rhode Island borderline, Peter's undergraduate
 							work took place for the first two years at the Community College of Rhode Island. He pursued a bachelor's degree in Communications with enough credits for a Music, English, or Philosophy minor. He chose Philosophy and graduated in 1984 while attending Rhode Island College for  the last two years of his undergraduate studies.
@@ -40,7 +40,7 @@ get_header();
 
 							<br>
 
-						<img src="<?php bloginfo('template_directory');?>/images/P1020345.jpg" style="float: left;width: 40%;height: auto; margin-right: 5%; margin-bottom: 5%; margin-top: 2.5%;">
+				<img src="<?php bloginfo('template_directory');?>/images/P1020345.jpg" style="float: left;width: 40%;height: auto; margin-right: 5%; margin-bottom: 5%; margin-top: 2.5%;">
 
 
 							Other influential literature impacting his thoughts about the nature of humanity include <a href="https://plato.stanford.edu/entries/emerson/" class="textlinks" target="_blank">Ralph Waldo Emerson</a>, <a href="https://www.britannica.com/biography/Edgar-Allan-Poe" target="_blank">Edgar Allen Poe</a>, the poetry of <a href="https://www.nbcnews.com/feature/nbc-out/walt-whitman-gay-new-textbook-rules-spark-lgbtq-history-n821636" target="_blank">Walt
@@ -53,7 +53,7 @@ get_header();
 							<br>
 
 
-						<img src="<?php bloginfo('template_directory');?>/images/FB_IMG_1641630526678.jpg" style="float: right;width: 40%;height: auto; margin-left: 5%; margin-bottom: 0.5%; margin-top: 1%">
+				<img src="<?php bloginfo('template_directory');?>/images/FB_IMG_1641630526678.jpg" style="float: right;width: 40%;height: auto; margin-left: 5%; margin-bottom: 0.5%; margin-top: 1%">
 
 							During his daily working life, after many years of experience in a variety of fields
 							starting as an account executive at an ad agency, he eventually became an expert in sales and marketing. Beginning with an infomercial company, and then managing a sales team at an internet advertising start-up, he then acquired over 20 years of experience in telecommunications and Cable TV. In 2008 when the U.S. market crashed, Peter decided to reinvent himself. After discussing his next career move with friends and his husband, he reminisced over a	part-time job he had as the Recreational Director at the Institute of Mental Health in Cranston, Rhode Island. He worked with older adults, doing sing-alongs to piano and guitar. Lancellotti, a classically trained guitarist from the age of eight, was also a studio musician. In addition to working on his craft, he realized he enjoyed working with older adults.
@@ -65,7 +65,7 @@ get_header();
 
 							<br>
 
-						<img src="<?php bloginfo('template_directory');?>/images/211.JPG" style="float: left;width: 40%;height: auto; margin-right: 5%; margin-bottom: 2.5%; margin-top: 4%">
+				<img src="<?php bloginfo('template_directory');?>/images/211.JPG" style="float: left;width: 40%;height: auto; margin-right: 5%; margin-bottom: 2.5%; margin-top: 4%">
 
 							<br>
 
@@ -78,11 +78,10 @@ get_header();
 							Here is when his career came to a screeching halt after developing comorbidities of his own at the end of 2016. 
 
 							After experiencing personal tragedies and trauma beginning in April 2019, he isolated himself for a year and sought therapy. Then Covid19 hit the planet in March 2020. Being declared permanently disabled, this would be the beginning of Peter’s next chapter in life—writing.
-				    </p>
-				</div>
-			</div>	
-		</main>
+			</p>
+		</div>
+	</div>	
+</main>
 
-<?php
-get_footer();
+<?php get_footer();
 ?>
