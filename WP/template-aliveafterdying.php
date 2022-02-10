@@ -4,15 +4,6 @@ get_header();
 ?>
 
 <main>
-
-		<style>
-		body {
-			width: 100%;
-			overflow-x: hidden;
-			overflow-y: hidden;
-		}
-	</style>
-
 		    <div class="maincontain">
 				<div class="headshot">
 			   		<img class="smallwide" src="<?php bloginfo('template_directory');?>/images/PeterGLBookCoverFinal.png" width="25%" height="auto">

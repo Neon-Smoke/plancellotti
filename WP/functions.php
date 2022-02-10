@@ -16,7 +16,7 @@ function load_styles()
 function addjs()
 {
 
-	wp_register_script('main', get_template_directory_uri() . '<?php bloginfo('template_directory');?>/scripts/custom.js', array() , '', true);
+	wp_register_script('main', get_template_directory_uri() . '/scripts/custom.js', array() , 1, 1, 1);
 	wp_enqueue_script('main');
 
 

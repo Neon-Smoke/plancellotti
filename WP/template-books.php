@@ -1,16 +1,8 @@
 <?php
 /* Template Name: Books */
-get_header();
-?>
+get_header();?>
 
 <main>
-	<style>
-		body {
-			width: 100%;
-			overflow-x: hidden;
-			overflow-y: hidden;
-		}
-	</style>
 	<div class="maincontain">
 		<div class="about">
 			<p style="float: center;"> 
@@ -25,5 +17,4 @@ get_header();
 </main>
 
 <?php
-get_footer();
-?>
+get_footer();?>

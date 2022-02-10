@@ -14,11 +14,6 @@ get_header();
 			a:visited {
 				color: white;
 				}
-			body {
-				width: 100%;
-				overflow-x: hidden;
-				overflow-y: hidden;
-			}
 	</style>
 
 	<div class="maincontain">

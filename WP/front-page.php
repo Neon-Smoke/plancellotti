@@ -2,9 +2,6 @@
 ?>
 
 <main>
-    <style>
-
-    </style>
             <div class="maincontain">
                 <div class="headshot">
                     <img class="smallwide" src="<?php bloginfo('template_directory');?>/images/BastetPeter.png" width="50%" alt="Peter Lancellotti Headshot">
