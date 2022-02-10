@@ -1,5 +1,10 @@
-<footer>Copyright - 2021 - NeonGray</footer>
-	</div>
+</div>
+
+<footer class="footer">
+	Copyright - 2021 - NeonGray
+</footer>
+
+	<?php wp_footer();?>
 </body>
-<script src="main.js"></script>
+
 </html>

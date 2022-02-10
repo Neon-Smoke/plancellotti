@@ -17,24 +17,6 @@ html {
   font-size: 62.5%;
 }
 
-.container {
-  caret-color: transparent;
-  display: grid;
-  height: 100vh;
-  width: 100%;
-  background-image: linear-gradient(163deg, #521736 52%, #28282A 35%);
-  overflow: auto;
-  overflow-y: scroll;
-  font-weight: bolder;
-  color: white;
-  background-position: center;
-  grid-template-columns: 1fr;
-  grid-template-rows: .1fr 1fr .5fr;
-  grid-template-areas:
-    "nav"
-    "main"
-    "footer";
-}
 
 .logo{
   float: left;
@@ -48,7 +30,6 @@ html {
 }
 
 .headshot {
-  width: 80%;
   height: auto;
   margin-left: 10%;
   margin-top: 5%;  
@@ -60,9 +41,30 @@ html {
   text-align: center;
 }
 
+.container {
+  caret-color: transparent;
+  display: grid;
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(163deg, #521736 52%, #28282A 35%);
+  overflow: hidden;
+  overflow-y: scroll;
+  font-weight: bolder;
+  color: white;
+  background-position: center;
+  grid-template-columns: 1fr;
+  grid-template-rows: .1fr 1fr .5fr;
+  grid-template-areas:
+    "nav"
+    "main"
+    "footer";
+}
+
 .about {
   border-radius: 30px;
   line-height: 2;
+  overflow: hidden;
+  overflow-y: scroll;
   padding-top: 1%;
   padding-left: 5%;
   padding-right: 5%;
@@ -212,7 +214,7 @@ footer{
 
   grid-area: footer;
   margin-top: 1.5%;
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-content: center;
 }

@@ -15,17 +15,18 @@
   <title>Peter Lancellotti - Author</title> 
 
 </head>
+
 <body>
 	<div class="container">
 		<nav class="navbar">
 		    <div class="logo">PETER LANCELLOTTI</div>
 			    <ul class="nav-menu">
-			     	<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-			     	<li class="nav-item"><a href="about.html" class="nav-link">The Author</a></li>
-			     	<li class="nav-item"><a href="books.html" class="nav-link">Books</a></li>
-			     	<li class="nav-item"><a href="/blogs.php" class="nav-link">Blogs</a></li>
-			     	<li class="nav-item"><a href="stories.html" class="nav-link">Stories</a></li>
-			     	<li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li> 
+			     	<li class="nav-item"><a href="https://peterlancellotti.com/home/" class="nav-link">Home</a></li>
+			     	<li class="nav-item"><a href="https://peterlancellotti.com/about/" class="nav-link">The Author</a></li>
+			     	<li class="nav-item"><a href="https://peterlancellotti.com/books/" class="nav-link">Books</a></li>
+			     	<li class="nav-item"><a href="https://peterlancellotti.com/blogs/" class="nav-link">Blogs</a></li>
+			     	<li class="nav-item"><a href="https://peterlancellotti.com/stories/" class="nav-link">Stories</a></li>
+			     	<li class="nav-item"><a href="https://peterlancellotti.com/contact/" class="nav-link">Contact</a></li> 
 			    </ul>    
 			<div class="hamburger">
 				 	<span class="bar"></span>
