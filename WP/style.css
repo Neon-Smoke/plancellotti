@@ -374,6 +374,7 @@ footer{
 
   .navbar.active {
     margin-top: 10px;
+    margin-right: 50px;
     margin-bottom: 100px;
     transition: 0.3s;
   }
