@@ -4,6 +4,12 @@ get_header();
 ?>
 
 <main>
+	<style>
+		  	img {
+		  		border: 0.2em solid black;
+			}
+	  	</style>
+
 		    <div class="maincontain">
 				<div class="headshot">
 			   		<img class="smallwide" src="<?php bloginfo('template_directory');?>/images/PeterGLBookCoverFinal.png" width="25%" height="auto">
@@ -30,7 +36,7 @@ get_header();
 						<img src="<?php bloginfo('template_directory');?>/images/Mahesh and me 2.jpg" style="float: left;width: 40%;height: auto; margin-right: 5%; margin-bottom: 2%; margin-top: 2%;">
 
 						“Alive After Dying…” is a nonfiction account delving deeply into Peter’s past where mysteries come to light in unexpected ways. His self-deprecating and satirical observations often show a playful exploration of how he handles life’s seemingly insurmountable tests.<br>
-						Most of us have experienced heartbreaking tragedies in love and health. Feelings of being judged with cruelty by our families, and societal biases from the world at large can be the bane of those who identify as LGBTQ (lesbian, gay, bisexual, transgender, questioning/queer). In part, due to the brainwashing power of religion, Peter believes in controlling our own actions instead of reacting to the world. To better create a sense of order out of chaos and power over our destinies, accepting change is a necessity. To pursue a spiritual path, it’s vital to help ourselves before we can help others reach their potential. He believes higher consciousness is a journey that may be the next step in human evolution. Can Peter change as he believes? 				
+						Most of us have experienced heartbreaking tragedies in love and health. Feelings of being judged with cruelty by our families, and societal biases from the world at large can be the bane of those who identify as LGBTQ (Lesbian, Gay, Bisexual, Transgender, Questioning/Queer). In part, due to the brainwashing power of religion, Peter believes in controlling our own actions instead of reacting to the world. To better create a sense of order out of chaos and power over our destinies, accepting change is a necessity. To pursue a spiritual path, it’s vital to help ourselves before we can help others reach their potential. He believes higher consciousness is a journey that may be the next step in human evolution. Can Peter change as he believes? 				
 					</p>
 					<br>
 

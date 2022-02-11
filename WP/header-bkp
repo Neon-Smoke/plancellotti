@@ -15,21 +15,19 @@
 	<div class="container">
 		<nav class="navbar">
 		    <div class="logo">PETER LANCELLOTTI</div>
-			     	<?php 
-
-			     	wp_nav_menu(
+			    <ul class="nav-menu">
+			     	<?php wp_nav_menu(
 
 			     		array(
 
 			     		'theme_location' => 'navbar',
-			     		'menu_class' => 'nav-menu'
 
 			     		)
 
-			     	);
 
-			     	;?> 
-   
+			     	);
+			     	?> 
+			    </ul>    
 			<div class="hamburger">
 				 	<span class="bar"></span>
 				    <span class="bar"></span>

@@ -1,6 +1,9 @@
 <?php 
 
 
+// load stylesheets
+
+
 function load_styles()
 {
 
@@ -8,18 +11,36 @@ function load_styles()
 	);
 	wp_enqueue_style('general');
 
-
 }
+add_action('wp_enqueue_scripts', 'load_styles');
 
 // load scripts
 
 function addjs()
 {
 
-	wp_register_script('main', get_template_directory_uri() . '/scripts/custom.js', array() , 1, 1, 1);
-	wp_enqueue_script('main');
-
+	wp_register_script('custom', get_template_directory_uri() . '/scripts/custom.js', 'jquery', false, true);
+	wp_enqueue_script('custom');
 
 }
+add_action('wp_enqueue_scripts', 'addjs');
 
-add_action('wp_enqueue_scripts', 'load_styles');
+
+// theme options
+
+	// navigation
+
+add_theme_support('menus');
+
+// menus
+
+register_nav_menus(
+
+	array(
+
+			'navbar' => 'Navigation Bar',
+			'mobi' => 'Mobile menu',
+
+	)
+
+);

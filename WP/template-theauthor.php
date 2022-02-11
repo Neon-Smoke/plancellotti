@@ -14,6 +14,10 @@ get_header();
 			a:visited {
 				color: white;
 				}
+
+		  	img {
+		  		border: 0.2em solid black;
+			}
 	</style>
 
 	<div class="maincontain">
@@ -29,10 +33,12 @@ get_header();
 							Growing up on the Massachusetts/Rhode Island borderline, Peter's undergraduate
 							work took place for the first two years at the Community College of Rhode Island. He pursued a bachelor's degree in Communications with enough credits for a Music, English, or Philosophy minor. He chose Philosophy and graduated in 1984 while attending Rhode Island College for  the last two years of his undergraduate studies.
 							<br>
+							<br>
 							Of the many authors he's been influenced by, Peter found the works of
 							Plato magnificent, especially <a href="https://iep.utm.edu/republic/" class="textlinks" target="_blank">The Republic</a> as the most interesting book describing humanity's psychological
 							development and concepts of justice. <a href="https://www.amazon.com/Alice-A.-Bailey/e/B000APSJ4O%3Fref=dbs_a_mng_rwt_scns_share" target="_blank">Alice A. Bailey</a>, a <a href="https://www.google.com/search?client=firefox-b-1-d&q=definition+of+theosophy" target="_blank"><i>theosophist</i></a>, not to be confused with the study of <a href="https://www.google.com/search?client=firefox-b-1-d&q=definition+of+theology" target="_blank"><i>theology</i><a>, is a favorite influential author of Lancellotti, along with <a href="https://daily.jstor.org/spiritualism-science-and-the-mysterious-madame-blavatsky/" target="_blank">Helena Petrovna Blavatsky</a> who brought Theosophy, also known as the <a href="https://www.google.com/search?client=firefox-b-1-d&q=definition+of+the+occult" target="_blank"><i>occult</i></a>, to America in 1875 with Henry Steel Olcott. Having also studied theology, Peter held to the belief that no one religion had all the answers to the inner workings of the universe. He believed they all had contributions to “truth.” He felt popular religions pigeonholed us, limiting our views when thinking outside the box about the nature of God, the supernatural, and how it affects our personal relationship with a higher power.
 
+							<br>
 							<br>
 
 				<img src="<?php bloginfo('template_directory');?>/images/P1020345.jpg" style="float: left;width: 40%;height: auto; margin-right: 5%; margin-bottom: 5%; margin-top: 2.5%;">
@@ -42,7 +48,7 @@ get_header();
 							Whitman</a>, and one of Peter's favorite authors, <a href="https://www.shakespeare.org.uk/explore-shakespeare/shakespedia/william-shakespeare/william-shakespeare-biography/" target="_blank"> William Shakespeare</a>. A few modern authors he's read and enjoyed include <a href="https://www.cslewis.com/us/" target="_blank">C.S. Lewis</a>, <a href="https://www.jkrowling.com/writing/" target="_blank">J.K. Rowling</a>, and <a href="https://www.madeleinelengle.com/madeleine-lengle/" target="_blank">Madeleine L’Engle</a> in the realm of fantasy, as well as <a href="http://www.asimovonline.com/asimov_home_page.html" target="_blank">Isaac Asimov</a>, <a href="https://dunenovels.com/frank-herbert/" target="_blank">Frank Herbert</a>, and <a href="https://www.britannica.com/biography/Arthur-C-Clarke" target="_blank">Arthur C. Clarke</a> as these writers created worlds, which stimulated his own creativity. 
 							<br>
 
-							An author who fascinated him in the sphere of drama and screenplay writing, as well as being the first to introduce him to gay thought was the late great <a href="https://www.biography.com/writer/tennessee-williams" target="_blank">Tennessee Williams</a>. He was a brave gay man out of the closet at the time he lived, born in the early part of the 20th century, making a thorough examination about mortality in a variety of stage and screenplays. His dark view of homosexuality was colored by his own upbringing. As for Lancellotti's interest in immortality, <a href="http://annerice.com/" target="_blank">Ann Rice</a> examined the possibility of life as a vampire, exciting his macabre side. He’s read many other vampire novels, including one of the most famous, <a href="https://www.britannica.com/biography/Bram-Stoker" target="_blank">Bram Stoker</a>'s “Dracula.”
+							An author who fascinated him in the sphere of drama and screenplay writing, as well as being the first to introduce him to gay thought was the late great <a href="https://www.biography.com/writer/tennessee-williams" target="_blank">Tennessee Williams</a>. He was a brave gay man out of the closet at the time he lived, born in the early part of the 20th century, making a thorough examination about mortality in a variety of stage and screenplays. His dark view of homosexuality was colored by his own upbringing. As for Lancellotti's interest in immortality, <a href="http://annerice.com/" target="_blank">Anne Rice</a> examined the possibility of life as a vampire, exciting his macabre side. He’s read many other vampire novels, including one of the most famous, <a href="https://www.britannica.com/biography/Bram-Stoker" target="_blank">Bram Stoker</a>'s “Dracula.”
 
 							<br>
 							<br>

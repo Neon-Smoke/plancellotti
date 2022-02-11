@@ -2,9 +2,9 @@
 
 <main>
 	<div class="maincontain">
-		<div class="about">
+		<div class="blog">
 
-				UNDER CONSTRUCTION
+			<h1><?php the_title();?></h1>
 
 			<?php get_template_part('includes/section', 'content');?>
 			

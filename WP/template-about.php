@@ -4,6 +4,11 @@ get_header();
 ?>
 
 <main>
+	<style>
+		  	img {
+		  		border: 0.2em solid black;
+			}
+	</style>
 	<div class="maincontain">
 		<div class="about">
 			<br>
