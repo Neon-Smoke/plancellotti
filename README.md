@@ -11,8 +11,15 @@ Website repository for Peter Lancellotti
 
 ~~check spelling on cover text~~
 
-*add hyperlinks*
+~~add hyperlinks~~
 
 ~~color correct/crop all photos~~
 
+~~convert statuc HTML to PHP~~
+
+fix mobile menu optimization
+
+style blog posts (comments, pages)
+
+attach mailchimp signup to maillist button
 
