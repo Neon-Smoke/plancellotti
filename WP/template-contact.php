@@ -43,12 +43,15 @@ get_header();
 						<br>
 
 						<div class="search">
-							<input type="text" class="search-bar" placeholder="Your Email Address" required>
-							<input type="button" class="search-btn" value="join">
+							<form action="https://peterlancellotti.us14.list-manage.com/subscribe/post?u=f7d76c797d5f1f55d452ec911&amp;id=3a62b86790" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+							<input type="text" name="EMAIL" class="search-bar" id="mce-EMAIL" placeholder="Your Email Address" required>
+							<input type="submit" name="subscribe" id="mc-embedded-subscribe" class="search-btn" value="join">
+							</form>
 						</div>
+					
 				</div>
 				<div class="about">
-						Links to newest Blog post/Story will go here <br>
+						Most recent blogs and stories: <br>
 						<br>
 						<a href="#">Newest Blog</a> &nbsp &nbsp &nbsp &nbsp &nbsp <a href="#">Newest Story</a>
 				</div>
@@ -60,3 +63,4 @@ get_header();
 <?php
 get_footer();
 ?>
+

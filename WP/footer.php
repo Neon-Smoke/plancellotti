@@ -1,5 +1,5 @@
-<footer class="footer">
-	Copyright - 2021 - NeonGray
+<footer>
+	Copyright - 2021 - Sebastian Liczner
 </footer>
 </div>
 

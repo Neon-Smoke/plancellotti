@@ -7,6 +7,13 @@ get_header();?>
 		  	img {
 		  		border: 0.2em solid black;
 			}
+
+			@media only screen and (max-width: 1080px){
+
+				img {
+					width: 50%;
+				}
+			}
 	</style>
 	
 	<div class="maincontain">
@@ -19,7 +26,7 @@ get_header();?>
 				<img src="<?php bloginfo('template_directory');?>/images/PeterGLBookCoverFinal.png" width="25%" height="auto">
 			</a>
 		</div>
-	</div>
+	</div>	
 </main>
 
 <?php

@@ -19,7 +19,7 @@ get_header();
 
 			  			<p style="text-align: center;">It is not about life after death.</p>
 				  		
-				  		<img src="<?php bloginfo('template_directory');?>/images/FB_IMG_1595661841433_12707691222333.jpg" style="float: right;width: 40%;height: auto; margin-left: 5%; margin-bottom: 2%; margin-top: 5%;" alt="Lancellotti's Mother">
+				  		<img src="<?php bloginfo('template_directory');?>/images/FB_IMG_1595661841433_12707691222333.jpg" style="float: right;width: 50%;height: auto; margin-left: 5%; margin-bottom: 2%; margin-top: 5%;" alt="Lancellotti's Mother">
 
 				  		<p style="text-align: left; padding-right: 2.5px; padding-bottom: 2.5%;">
 						<br>
@@ -33,7 +33,7 @@ get_header();
 						This starts Peter down a road of spiritual self-discovery forever changing him. Surrounded by the supernatural for most of his life, he has guidance from a Canadian cousin who has always loved him, even when his Italian family disowns him. Four special mentors he names also guide him on his spiritual path. He would have to make some hard decisions affecting his future when tragedies struck. Being aware that everybody has uncontrollable events affecting them negatively at times, he wonders if the power of positive thinking is enough for life, liberty, and the pursuit of happiness. Whether he accepts his spiritual destiny is a mystery he must solve.
 						<br>
 
-						<img src="<?php bloginfo('template_directory');?>/images/Mahesh and me 2.jpg" style="float: left;width: 40%;height: auto; margin-right: 5%; margin-bottom: 2%; margin-top: 2%;">
+						<img src="<?php bloginfo('template_directory');?>/images/Mahesh and me 2.jpg" style="float: left;width: 50%;height: auto; margin-right: 5%; margin-bottom: 2%; margin-top: 2%;">
 
 						“Alive After Dying…” is a nonfiction account delving deeply into Peter’s past where mysteries come to light in unexpected ways. His self-deprecating and satirical observations often show a playful exploration of how he handles life’s seemingly insurmountable tests.<br>
 						Most of us have experienced heartbreaking tragedies in love and health. Feelings of being judged with cruelty by our families, and societal biases from the world at large can be the bane of those who identify as LGBTQ (Lesbian, Gay, Bisexual, Transgender, Questioning/Queer). In part, due to the brainwashing power of religion, Peter believes in controlling our own actions instead of reacting to the world. To better create a sense of order out of chaos and power over our destinies, accepting change is a necessity. To pursue a spiritual path, it’s vital to help ourselves before we can help others reach their potential. He believes higher consciousness is a journey that may be the next step in human evolution. Can Peter change as he believes? 				

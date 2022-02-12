@@ -13,8 +13,32 @@ Version: 1.0
   box-sizing: border-box;
 }
 
+a:link {
+color: white;
+}
+
+a:visited {
+color: white;
+}
+
 html {
   font-size: 62.5%;
+}
+
+.commentlist{
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.logo{
+  float: left;
+  cursor: cell;
+  color: #FFFFFF;
+  font-size: 5em;
+  font-weight: bolder;
+  padding-left: 1%;
+  padding-top: 0.25%;
+  padding-bottom: 0.75%;
 }
 
 .container {
@@ -34,17 +58,6 @@ html {
     "nav"
     "main"
     "footer";
-}
-
-.logo{
-  float: left;
-  cursor: cell;
-  color: #FFFFFF;
-  font-size: 5em;
-  font-weight: bolder;
-  padding-left: 1%;
-  padding-top: 0.25%;
-  padding-bottom: 0.75%;
 }
 
 .headshot {
@@ -97,8 +110,8 @@ html {
 .contact {
   display: grid;
   width: 100%;
-  height: 90vh;
-  margin-top: 3%;
+  height: auto;
+  margin-top: 1%;
   grid-template-columns: 1fr 1.4fr;
   grid-template-rows: 1fr;
   grid-template-areas:
@@ -121,6 +134,21 @@ html {
   border: 3px solid black;
 }
 
+.comment-respond{
+  border-radius: 60px;
+  caret-color: black;
+}
+
+.logged-in-as:a link{
+color: white;
+}
+
+
+.logged-in-as:a visited{
+color: white;
+}
+
+
 .search-btn{
   width: 20rem;
   border: 2px solid black;
@@ -131,9 +159,26 @@ html {
   font-size: 1em;
 }
 
+.blog-btn{
+  border-radius: 3rem;
+  padding: 1rem;
+  width: 20rem;
+  border: 2px solid black;
+  background-image: linear-gradient(163deg, #521736, #28282A);
+  color: white;
+  cursor: pointer;
+  margin-top: 1rem;
+  font-size: 1em;
+}
+
 .search-btn:hover{
   background-image: linear-gradient(163deg, #28282A, #521736);
 }
+
+.blog-btn:hover{
+  background-image: linear-gradient(163deg, #28282A, #521736);
+}
+
 
 .navbar{
   width: 100%;
@@ -142,7 +187,7 @@ html {
   background-color: #28282A;
   opacity: 100%;
   grid-area: nav;
-  line-height: 0.3fr;
+  line-height: 0.2fr;
   display: inline-flex;
   align-items: center;
   justify-content: space-between;
@@ -150,7 +195,7 @@ html {
   
 .navbar ul{
   float: right;
-  margin-right: 0.5%;
+  margin-right: 5%;
 }
 
 .navbar ul li{
@@ -183,10 +228,12 @@ html {
 }
 
 .nav-menu{
-  display: inline-flex;
+  display: flex;
   justify-content: space-between;
+  margin-right: 5px;
   align-items: center;
   gap: 20px;
+  white-space: nowrap;
 }
 
 .hamburger{
@@ -225,15 +272,13 @@ maillist{
   font-weight:  bolder;
 }
 
-bloglinks{
-  grid-area: bloglinks;
-}
-
 footer{
 
   grid-area: footer;
   margin-top: 1.5%;
-  display: inline-flex;
+  width: 100%;
+  margin-bottom: 2%;
+  display: flex;
   justify-content: center;
   align-content: center;
 }
@@ -242,7 +287,7 @@ footer{
 
   .container{
     grid-template-columns: 1fr;
-    grid-template-rows: .01fr 0.1fr 0.05fr;
+    grid-template-rows: 0.05fr 0.2fr 0.3fr;
     grid-template-areas:
     "nav"
     "main"
@@ -250,8 +295,35 @@ footer{
   }
 
   .about{
+    margin-top: 9%;
+    font-size: 2.8em;
+  }
+
+.comment-respond{
+  border-radius: 6px;
+  caret-color: black;
+  overflow: auto;
+}
+
+.comment-form{
+  overflow: hidden;
+}
+
+.logged-in-as{
+  overflow: hidden;
+}
+
+.form-submit{
+  overflow: hidden;
+}
+
+.comment{
+  overflow: hidden;
+}
+
+  .blog{
     margin-top: 10%;
-    font-size: 2.8rem;
+    font-size: 1.5rem;
   }
 
   .headshot{
@@ -284,10 +356,12 @@ footer{
     position: fixed;
     top: -100%;
     width: 100%;
-    background-color: #0009;
+    z-index: 999;
+    background-color: #000000;
     flex-direction: column;
     text-align: center;
     transition: 0.3s;
+    white-space: normal;
   }
 
   .navbar{
@@ -328,18 +402,50 @@ footer{
 
   .contact {
     display: grid;
-    margin-top: 1.5;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.1fr 0.1fr 0.1fr;
+    grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr;
     grid-template-areas:
     "contact"
-    "maillist";
+    "maillist"
+    "bloglinks"
+    "footer";
   }
 
 }
 
-@media only screen and (max-width: 550px){
+@media only screen and (max-width: 782px){
 
+  .container{
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.01fr 0.05fr 0.1fr;
+    grid-template-areas:
+    "nav"
+    "main"
+    "footer";
+  }
+
+.comment-respond{
+  border-radius: 6px;
+  caret-color: black;
+  width: 70%;
+  overflow: auto;
+}
+
+.comment-form{
+  overflow: hidden;
+}
+
+.logged-in-as{
+  overflow: hidden;
+}
+
+.form-submit{
+  overflow: hidden;
+}
+
+.comment{
+  overflow: hidden;
+}
 
   .logo{
     font-size: 2.5em;
@@ -351,8 +457,11 @@ footer{
     margin-top: 4rem;
   }
 
-  .about{
-    font-size: 8rem;
+
+  .blog{
+    width: 82%;
+    font-size: 1rem;
+    border-radius: 5px;
   }
 
   .navbar ul{
@@ -407,5 +516,16 @@ footer{
     cursor: pointer;
     margin-left: -5rem;
     font-size: 0.6em;
+  }
+
+    .contact {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr;
+    grid-template-areas:
+    "contact"
+    "maillist"
+    "bloglinks"
+    "footer";
   }
 }

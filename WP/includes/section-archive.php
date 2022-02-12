@@ -6,7 +6,9 @@
 
     <?php the_excerpt();?>
 
-    <a href="<?php the_permalink();?>">Read more..</a>
+
+    <a href="<?php the_permalink();?>" class="blog-btn">Read more..</a>
+
 
 </div>
 
