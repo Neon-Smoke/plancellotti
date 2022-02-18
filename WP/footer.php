@@ -1,5 +1,5 @@
 <footer>
-	Copyright - 2021 - Sebastian Liczner
+	Copyright - 2022 - Sebastian Liczner
 </footer>
 </div>
 

@@ -53,7 +53,7 @@ get_header();
 				<div class="about">
 						Most recent blogs and stories: <br>
 						<br>
-						<a href="#">Newest Blog</a> &nbsp &nbsp &nbsp &nbsp &nbsp <a href="#">Newest Story</a>
+						<a href="https://peterlancellotti.com/category/blog/">Latest Blogs</a> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <a href="https://peterlancellotti.com/category/stories/">Latest Stories</a>
 				</div>
 			</maillist>
 		</div>
